@@ -3,6 +3,7 @@ import './App.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './components/home'
 import Auth from './components/auth'
+import Main from './components/main'
 // import './styles/media.css'
 
 const router = createBrowserRouter([
@@ -15,7 +16,11 @@ const router = createBrowserRouter([
   {
     path : '/auth',
     element : <Auth/>,
-    
+  }
+  ,
+  {
+    path : '/main',
+    element : <Main/>,
   }
   
   
